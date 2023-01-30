@@ -6,7 +6,7 @@ int main()
     float number2;
     float result;
 
-    printf("enter the operator: (x, y, +, -,  *,  /,)");
+    printf("enter the operator: (c, s, +, -,  *,  /)");
     scanf("%c", &operator);
 
     printf("enter the 1st number");
@@ -18,11 +18,11 @@ int main()
     {
     case '+':
         result = number1 + number2;
-        printf("Sum: %f",result);
+        printf("Add: %f",result);
         break;
 case'-':
 result=number1-number2;
-printf("subtraction: %f",result);
+printf("sub: %f",result);
 break;
 
 case'*':
@@ -35,16 +35,16 @@ result = number1 / number2;
 printf("division: %f",result);
 break;
 
-case'x':
+case's':
 result = number1*number1;
-printf("square of number 1: %f",result);
+printf("square of number 1: %f\n",result);
 result=number2 *number2;
 printf("square of number 2: %f",result);
 break;
 
-case'y':
+case'c':
 result = number1 *number1 *number1;
-printf("cube of 1st number:%f",result);
+printf("cube of 1st number:%f\n",result);
 result = number2 *number2 *number2;
 printf("cube of 2nd number:%f",result);
 break;
