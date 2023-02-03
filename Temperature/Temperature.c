@@ -1,13 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    float fahr,cel;
+    float Fahrenheit,Celcius;
     
     printf("enter the temperature");
-    scanf("%f",&fahr);
-    cel = 5 / 9 * (fahr – 32); 
-
-
+    scanf("%f",&Fahrenheit);
+    Celcius = (5.0 / 9) * (Fahrenheit - 32); 
+    printf("Fahrenheit to Celcius:%f",Celcius);
 
     return 0;
 }
