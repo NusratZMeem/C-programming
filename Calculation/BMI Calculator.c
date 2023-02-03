@@ -17,14 +17,14 @@ float BMI;
 //printf("what is your age?");
 //scanf("%f",&age);
 
-printf("what is your height in meters?");
+printf("enter your height in meters");
 scanf("%f",&height);
 
-printf("what is your weight kg?");
+printf("enter your weight in kg");
 scanf("%f",&weight);
 
 BMI = weight/(height*height);
-printf("BMI:%f",BMI);
+printf("Body Mass Index(BMI):%f",BMI);
 
 if (BMI<18.5)
 {
