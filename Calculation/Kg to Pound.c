@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-float Kg,Pound;
+float kg,pound;
 printf("enter the weight");
-scanf("%f",&Kg);
+scanf("%f",&kg);
 
-Pound = Kg * 2.20462;
-printf("Kg to pound:%f",Pound);
+pound = kg * 2.20462;
+printf("Kg to Pound:%f",pound);
 
 return 0;
 }
