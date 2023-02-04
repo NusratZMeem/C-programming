@@ -2,11 +2,11 @@
 int main ()
 {
 
-float Foot,Meter;
+float foot,meter;
 printf("enter the measurement");
-scanf("%f",&Foot);
-Meter = Foot* 0.304;
-printf("Foot to Meter:%f",Meter);
+scanf("%f",&foot);
+meter = foot* 0.304;
+printf("Foot to Meter:%f",meter);
 return 0 ;
 
 }
