@@ -31,6 +31,10 @@ else if (30<=BMI)
 {
     printf("Obese");
 }
+else
+{
+    printf("invalid");
+}
 
 return 0;
 
