@@ -1,3 +1,4 @@
+//Write a C program to find the sum of first 100 odd numbers
 #include<stdio.h>
 int main()
 { int sum=0;

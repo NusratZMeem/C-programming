@@ -1,3 +1,5 @@
+//write a c program to display 10 natural numbers
+
 #include<stdio.h>
 int main()
 {

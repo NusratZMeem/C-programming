@@ -1,3 +1,5 @@
+//Write a C program to find the prime number using loop
+
 #include<stdio.h>
 int main()
 {

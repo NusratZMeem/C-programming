@@ -1,3 +1,5 @@
+//writing mlutiplication table using while loop
+
 #include<stdio.h>
 int main()
 {

@@ -1,3 +1,5 @@
+////write a c program to display m natural numbers
+
 #include<stdio.h>
 int main()
 {

@@ -1,3 +1,5 @@
+//c program to find sum and avarage of 10 natural numbers using for loop
+
 #include<stdio.h>
 int main()
 {

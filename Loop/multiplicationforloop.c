@@ -1,3 +1,5 @@
+//writing mlutiplication table using for loop
+
 #include<stdio.h>
 int main()
 {
@@ -9,12 +11,6 @@ for (i=1;i<=10;i++)
 {
    //product=i*m;
     printf("%d*%d=%d\n",m,i,product);
-
-
-
 }
-
-
-
-    return 0;
+return 0;
 }

@@ -1,3 +1,5 @@
+//Write a C program to find the sum of first 100 even numbers
+
 #include<stdio.h>
 int main()
 {
