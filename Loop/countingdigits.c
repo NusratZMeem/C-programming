@@ -1,15 +1,22 @@
 #include <stdio.h>
 
 int main() {
-   int num, count = 0;
-
-   printf("Enter a number: ");
-   scanf("%d", &num);
-
-   for (int i = num; i > 0; i /= 10) {
-       count++;
-   }
-
-   printf("The number of digits in %d is %d\n", num, count);
-   return 0;
+    int num, first_digit, last_digit;
+    
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    // find the first digit
+    first_digit = num;
+    while (first_digit >= 10) {
+        first_digit /= 10;
+    }
+    
+    // find the last digit
+    last_digit = num % 10;
+    
+    printf("First digit: %d\n", first_digit);
+    printf("Last digit: %d\n", last_digit);
+    
+    return 0;
 }
