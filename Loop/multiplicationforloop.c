@@ -4,7 +4,7 @@
 int main()
 {
 int i,n,m,product=1;
-printf("enter the number for multiplication table: ");
+printf("enter the number you want for multiplication table: ");
 scanf("%d",&m);
 printf("enter the number for loop: ");
 scanf("%d",&n);
